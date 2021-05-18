@@ -92,6 +92,8 @@
     src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
   <script async custom-element="amp-form"
     src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-template="amp-mustache"
+      src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
 
   <style amp-custom>
     body {
@@ -634,6 +636,20 @@
                 <label for="form-email">Email:</label>
               </div>
               <input type="submit" value="Subscribe" class="btn">
+              <div submit-success>
+                <template type="amp-mustache">
+                  <p class="form-submit-response">
+                    Success! Thank you {{name}} for subscribing!
+                  </p>
+                </template>
+              </div>
+              <div submit-error>
+                <template type="amp-mustache">
+                  <p class="form-submit-response">
+                    Oops! Sorry, there was an error
+                  </p>
+                </template>
+              </div>
             </form>
           </div>
         </div>
