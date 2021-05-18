@@ -1,4 +1,6 @@
-# The AMP Channel on YouTube - Web Development with AMP
+# Web Development with AMP
+
+*template README -- work in progress*
 
 This is a demo of a page buildout using the Accelerated Mobile Page (AMP) tools. [YouTube playlist](https://youtube.com/playlist?list=PLXTOW_XMsIDS45GB-eBV5s_M9EGIXMjI_)
 [amp.dev Documentation](https://amp.dev/documentation/courses/?format=websites&level=beginner)
